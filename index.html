@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-container">
+
+        <header>
+
+            <div class="logo-holder">
+                <img class="logo" src="img/Vector.svg" alt="logo Alura">
+            </div>
+            <nav class="menu"></nav>
+            <nav class="menu"></nav>
+
+        </header> 
+    
+        <main>
+
+                <form class="main-container">
+                    <textarea class="encrypt-decrypt-area" placeholder="Digite seu texto" spellcheck="false" required></textarea>
+                    <div class="hint-buttons">
+                        <div class="hint">
+                            <img src="img/exclamation.svg" alt="exclamacao de aviso">
+                            <p class="exclamation-paragraph">Apenas letras minúsculas e sem acento.</p>
+                        </div>
+                        <div class="buttons-1layer">
+                            <div class="buttons-2layer">
+                                <button class="button btn-encrypt" name="submit-encrypt" type="submit">Criptografar</button>    
+                                <button class="button btn-decrypt" name="submit-decrypt" type="submit">Descriptografar</button>
+                            </div>
+                        </div> 
+                    </div>
+                </form>
+
+        </main> 
+
+        <aside>
+
+            <div class="aside-container">  
+                <div class="message">
+                    <img class="image-high-quality" src="img/High quality products 1 1.svg" logo="ausencia de texto">
+                    <div class="msg">
+                        <p class="msg1">Nenhuma mensagem encontrada</p>
+                        <p class="msg2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+                <div class="output"></div>
+                <div class="copy-space">
+                    <button class="button btn-copy" name="copy" type="submit">Copiar</button>  
+                </div>
+            </div>
+            
+        </aside> 
+
+        <footer>
+            <a class="git-link" href="https://github.com/rodrigobars">
+                <img class=git-img src="/img/icons8-github-48.png" alt="github">
+            </a>
+        </footer>
+
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
